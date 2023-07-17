@@ -1,0 +1,33 @@
+2023.07.17 17:21:56 INFO  Started: Metals version 0.11.12 in workspace '/nfs/home/hukangjia/verilator_test/part' for client Visual Studio Code 1.80.0.
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/nfs/home/hukangjia/verilator_test/part/.metals/metals (H2 2.1)
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 17, 2023 5:21:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.041s)
+2023.07.17 17:21:56 INFO  time: initialize in 0.44s
+2023.07.17 17:21:58 WARN  Build server is not auto-connectable.
+2023.07.17 17:21:58 WARN  no build tool detected in workspace '/nfs/home/hukangjia/verilator_test/part'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.17 17:21:58 WARN  no build target for: /nfs/home/hukangjia/verilator_test/chisel-playground/playground/src/Mux2_1.scala
+2023.07.17 17:22:00 INFO  no build target found for /nfs/home/hukangjia/verilator_test/chisel-playground/playground/src/Mux2_1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.17 17:22:01 INFO  time: code lens generation in 3.69s
